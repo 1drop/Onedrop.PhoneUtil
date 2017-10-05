@@ -21,6 +21,7 @@ class PhoneHelper implements ProtectedContextAwareInterface
 {
     /**
      * @var I18n\Service
+     * @Flow\Inject
      */
     protected $localizationService;
     /**
