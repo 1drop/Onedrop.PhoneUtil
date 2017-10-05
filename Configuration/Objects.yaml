@@ -1,0 +1,8 @@
+libphonenumber\PhoneNumberUtil:
+  scope: singleton
+  factoryObjectName: Onedrop\PhoneUtil\Factory\PhoneNumberFactory
+  factoryMethodName: getUtilInstance
+libphonenumber\geocoding\PhoneNumberOfflineGeocoder:
+  scope: singleton
+  factoryObjectName: Onedrop\PhoneUtil\Factory\PhoneNumberFactory
+  factoryMethodName: getOfflineGeocoderInstance

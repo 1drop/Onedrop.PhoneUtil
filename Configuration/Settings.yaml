@@ -1,0 +1,9 @@
+Neos:
+  Fusion:
+    defaultContext:
+      Phone: Onedrop\PhoneUtil\Eel\Helper\PhoneHelper
+  Flow:
+    mvc:
+      routes:
+        'Onedrop.PhoneUtil':
+          position: 'start'

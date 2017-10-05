@@ -1,0 +1,20 @@
+{
+    "name": "onedrop/phoneutil",
+    "description": "Utilities to deal with phone numbers",
+    "type": "neos-package",
+    "require": {
+        "giggsey/libphonenumber-for-php": "^8.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hans Hoechtl",
+            "email": "hhoechtl@1drop.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Onedrop\\PhoneUtil\\": "Classes"
+        }
+    }
+}

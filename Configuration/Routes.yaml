@@ -1,0 +1,8 @@
+-
+  name: 'PhoneNumber formatter'
+  uriPattern: '__phone/format'
+  defaults:
+    '@package': 'Onedrop.PhoneUtil'
+    '@controller': 'TypeAheadFormatting'
+    '@action': 'asYouType'
+    '@format': 'json'

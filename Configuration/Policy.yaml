@@ -1,0 +1,14 @@
+#                                                                        #
+# Security policy for the Onedrop.FiberAvailability package              #
+#                                                                        #
+
+privilegeTargets:
+  Neos\Flow\Security\Authorization\Privilege\Method\MethodPrivilege:
+    'Onedrop.PhoneUtil:FormatApi':
+      matcher: 'method(Onedrop\PhoneUtil\Controller\TypeAheadFormattingController->(.*)Action())'
+roles:
+  'Neos.Flow:Everybody':
+    privileges:
+      -
+        privilegeTarget: 'Onedrop.PhoneUtil:FormatApi'
+        permission: GRANT
