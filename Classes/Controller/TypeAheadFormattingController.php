@@ -27,6 +27,7 @@ class TypeAheadFormattingController extends ActionController
     protected $defaultViewObjectName = JsonView::class;
     /**
      * @var I18n\Service
+     * @Flow\Inject
      */
     protected $localizationService;
     /**
