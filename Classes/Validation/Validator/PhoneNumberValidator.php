@@ -29,6 +29,7 @@ class PhoneNumberValidator extends AbstractValidator
     ];
     /**
      * @var I18n\Service
+     * @Flow\Inject
      */
     protected $localizationService;
     /**
